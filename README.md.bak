@@ -1,0 +1,86 @@
+# 🐍 Домашняя работа 30
+
+Домашняя работа по основам Django REST
+
+## 📦 Установка и настройка
+
+1. Клонируйте репозиторий:
+   [ссылка](https://github.com/kostya261/Home-work-22/pull/10)
+
+## Использование:
+
+Откройте проект например в PyCharm, запустите локальный сервер командой: python manage.py runserver
+
+Перейдите по ссылке в консоли или введите в строке браузера: 127.0.0.1:8000
+
+## Панель администратора:
+
+Откройте проект например в PyCharm, запустите локальный сервер командой: python manage.py runserver
+
+Перейдите по ссылке в консоли или введите в строке браузера: 127.0.0.1:8000/admin
+
+## Что добавлено в сравнении с предыдущим домашним заданием
+
+Реализовано кеширование продукта и низкоуровневое кеширование списка продуктов
+Также реализовано вывод продуктов по категориям
+
+
+## Структура проекта
+
+HomeWork_21_2/
+├── blog/                              # непосредственно приложение
+│ ├── management/                      #
+│ │ └── commands/                      #
+│ │      └──add_article.py             #
+│ ├── migrations/                      #
+│ └── templates/                       #
+├── catalog/                           # непосредственно приложение
+│ ├── management/                      #
+│ │   └── commands/                    #
+│ │      └──add_product.py             #
+│ ├── migrations/                      #
+│ └── templates/                       #
+│     └──catalog/                      #
+│        ├──home.html                  # основной шаблон
+│        ├──block_content.html         # основная страница с отображением всех продуктов
+│        ├──add_product.html           # основная тестовая страница
+│        ├──menu.html                  # страница меню
+│        ├──products_by_category.html  # страница вывода продуктов по категориям
+│        ├──product_detail.html        # страница детальной информации о продукте
+│        └──contacts.html              # страница контактов и для отправки post
+├── user_authentication/
+│     └── templates/user_authentication/
+│     ├── register.html # Форма регистрации
+│     ├── profile.html # Просмотр профиля
+│     └── edit_profile.html # Редактирование профиля
+├── models.py # Кастомная модель User
+├── services.py # Сервисные функции
+├── context_processors.py # Контекстный процессор (работаем с контекстом шаблонов)
+├── forms.py # Формы: CustomUserCreationForm, CustomUserChangeForm, UserProfileForm
+├── views.py # Представления (RegisterView, CustomLoginView, profile, edit_profile)
+├── urls.py # Маршруты с app_name='users'
+├── admin.py # Кастомная админка для User
+│ 
+│ 
+├──templates/                     #
+│   │ └──includes/                #
+│   │    ├──footer.html           # нижняя часть страницы
+│   │    └──menu.html             # страница меню
+│   └──home.html                  # основной шаблон
+├── config/ # конфигурационные файлы django│    
+├── media/ # Медиа файлы (снимки товаров)
+├── css/ # файлы bootstrap
+├── js/ # и его JavaScript`ы
+└── README.md # Этот файл
+
+👨‍💻 Автор
+Константин
+
+GitHub: https://github.com/kostya261
+
+Email: kos261@yandex.ru
+
+## Лицензия:
+
+📄 Лицензия
+Этот проект является курсовой работой и распространяется по лицензии MIT.В
