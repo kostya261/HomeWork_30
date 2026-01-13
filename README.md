@@ -5,72 +5,45 @@
 ## 📦 Установка и настройка
 
 1. Клонируйте репозиторий:
-   [ссылка](https://github.com/kostya261/Home-work-22/pull/10)
+   [ссылка](https://github.com/kostya261/HomeWork_30/pull/1)
 
 ## Использование:
 
 Откройте проект например в PyCharm, запустите локальный сервер командой: python manage.py runserver
 
-Перейдите по ссылке в консоли или введите в строке браузера: 127.0.0.1:8000
+В postman перейдите по ссылке в консоли или введите в строке браузера: 127.0.0.1:8000
 
-## Панель администратора:
+## А я что то не знаю, что здесь написать...
 
-Откройте проект например в PyCharm, запустите локальный сервер командой: python manage.py runserver
+Здесь стоит описать как создавать в postman курс, урок и пользователей?
+POST > localhost:8000/curse/
+   {
+      'title': 'Курс 1',
+      'description': 'Начальный курс первого академического корпуса кадетов царя Гороха'
+   }
 
-Перейдите по ссылке в консоли или введите в строке браузера: 127.0.0.1:8000/admin
-
-## Что добавлено в сравнении с предыдущим домашним заданием
-
-Реализовано кеширование продукта и низкоуровневое кеширование списка продуктов
-Также реализовано вывод продуктов по категориям
-
+Об этом что ли здесь писать?
 
 ## Структура проекта
 
 HomeWork_30/
 ├── lms/                              # непосредственно приложение
 │ ├── management/                      #
-│ │ └── commands/                      #
-│ │      └──add_article.py             #
-│ ├── migrations/                      #
-│ └── templates/                       #
-├── catalog/                           # непосредственно приложение
-│ ├── management/                      #
-│ │   └── commands/                    #
-│ │      └──add_product.py             #
-│ ├── migrations/                      #
-│ └── templates/                       #
-│     └──catalog/                      #
-│        ├──home.html                  # основной шаблон
-│        ├──block_content.html         # основная страница с отображением всех продуктов
-│        ├──add_product.html           # основная тестовая страница
-│        ├──menu.html                  # страница меню
-│        ├──products_by_category.html  # страница вывода продуктов по категориям
-│        ├──product_detail.html        # страница детальной информации о продукте
-│        └──contacts.html              # страница контактов и для отправки post
+│ └── migrations/                      #
+
 ├── user/
 │     └── templates/user/
-│     ├── register.html # Форма регистрации
-│     ├── profile.html # Просмотр профиля
-│     └── edit_profile.html # Редактирование профиля
+│  
 ├── models.py # Кастомная модель User
 ├── services.py # Сервисные функции
-├── context_processors.py # Контекстный процессор (работаем с контекстом шаблонов)
-├── forms.py # Формы: CustomUserCreationForm, CustomUserChangeForm, UserProfileForm
-├── views.py # Представления (RegisterView, CustomLoginView, profile, edit_profile)
+├── views.py # Представления
 ├── urls.py # Маршруты с app_name='users'
-├── admin.py # Кастомная админка для User
+├── admin.py # админка для User
 │ 
 │ 
-├──templates/                     #
-│   │ └──includes/                #
-│   │    ├──footer.html           # нижняя часть страницы
-│   │    └──menu.html             # страница меню
-│   └──home.html                  # основной шаблон
+
 ├── config/ # конфигурационные файлы django│    
 ├── media/ # Медиа файлы (снимки товаров)
-├── css/ # файлы bootstrap
-├── js/ # и его JavaScript`ы
 └── README.md # Этот файл
 
 👨‍💻 Автор
