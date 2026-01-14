@@ -1,0 +1,53 @@
+[
+{
+    "model": "lms.curse",
+    "pk": 1,
+    "fields": {
+        "title": "Первый курс",
+        "image": "",
+        "description": "Вступительный образовательный курс учащихся!"
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 2,
+    "fields": {
+        "title": "Второй курс",
+        "image": "",
+        "description": "Продолжение образовательного курса учащихся!"
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 1,
+    "fields": {
+        "title": "Вступительный урок",
+        "preview": "",
+        "description": "Вступительное занятие для начального образовательного курса.",
+        "link_video": null,
+        "curse": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 2,
+    "fields": {
+        "title": "Второй урок",
+        "preview": "",
+        "description": "Второе вступительное занятие для начального образовательного курса.",
+        "link_video": null,
+        "curse": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 3,
+    "fields": {
+        "title": "Первое занятие",
+        "preview": "",
+        "description": "Первое занятие для студентов второго курса.",
+        "link_video": null,
+        "curse": 2
+    }
+}
+]
