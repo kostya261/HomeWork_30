@@ -5,7 +5,7 @@
 ## 📦 Установка и настройка
 
 1. Клонируйте репозиторий:
-   [ссылка](https://github.com/kostya261/HomeWork_30/pull/1)
+   [ссылка](https://github.com/kostya261/HomeWork_30/pull/2)
 
 ## Использование:
 
