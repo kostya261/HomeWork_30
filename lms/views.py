@@ -1,12 +1,17 @@
 from rest_framework import viewsets, generics
 
 from lms.models import Curse, Lesson
-from lms.serializers import CurseSerializer, LessonSerializer
+from lms.serializers import CurseSerializer, LessonSerializer, CurseDetailSerializer
 
 
 class CurseViewSet(viewsets.ModelViewSet):
     serializer_class = CurseSerializer
     queryset = Curse.objects.all()
+
+    def get_serializer_class(self):
+        if self.action == 'retrieve':
+            return CurseDetailSerializer
+        return CurseSerializer
 
 
 class LessonCreateAPIView(generics.CreateAPIView):
@@ -29,5 +34,4 @@ class LessonUpdateAPIView(generics.UpdateAPIView):
 
 
 class LessonDestroyAPIView(generics.DestroyAPIView):
-
     queryset = Lesson.objects.all()

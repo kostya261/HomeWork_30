@@ -18,6 +18,15 @@
     }
 },
 {
+    "model": "lms.curse",
+    "pk": 3,
+    "fields": {
+        "title": "Python для начинающих",
+        "image": "",
+        "description": "Изучаем Python с нуля"
+    }
+},
+{
     "model": "lms.lesson",
     "pk": 1,
     "fields": {
@@ -48,6 +57,28 @@
         "description": "Первое занятие для студентов второго курса.",
         "link_video": null,
         "curse": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 4,
+    "fields": {
+        "title": "Первые шаги в Python",
+        "preview": "",
+        "description": "Учимся писать первую программу",
+        "link_video": null,
+        "curse": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 5,
+    "fields": {
+        "title": "Вторые шаги в Python",
+        "preview": "",
+        "description": "Учимся писать сложную программу",
+        "link_video": null,
+        "curse": 3
     }
 }
 ]
