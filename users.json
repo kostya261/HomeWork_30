@@ -23,19 +23,61 @@
     "model": "users.user",
     "pk": 2,
     "fields": {
-        "password": "pbkdf2_sha256$1200000$088Q9RBfd5K0ZXLgunkqIQ$+jCeIcE4+c0MTVLdcEtglGic/OLXOiafivBSyc6qTpc=",
+        "password": "pbkdf2_sha256$1200000$kKzohXHVQE1M38BF7ivYiI$L5/PWR+BJPa1+TBEn8fmbOzoQwcht8wktE0MdM7OFyg=",
         "last_login": null,
         "is_superuser": false,
         "first_name": "",
         "last_name": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2026-01-13T21:38:44.728Z",
+        "date_joined": "2026-01-13T21:38:44Z",
         "email": "mail@email.com",
         "phone": "+79277777777",
         "city": "Moscow",
         "avatar": "",
         "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$kKzohXHVQE1M38BF7ivYiI$L5/PWR+BJPa1+TBEn8fmbOzoQwcht8wktE0MdM7OFyg=",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-01-20T20:20:33Z",
+        "email": "test@test.ru",
+        "phone": null,
+        "city": null,
+        "avatar": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$kKzohXHVQE1M38BF7ivYiI$L5/PWR+BJPa1+TBEn8fmbOzoQwcht8wktE0MdM7OFyg=",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-01-20T21:21:09Z",
+        "email": "test2@test.ru",
+        "phone": null,
+        "city": null,
+        "avatar": "",
+        "groups": [
+            1
+        ],
         "user_permissions": []
     }
 },
