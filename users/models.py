@@ -1,6 +1,7 @@
 from django.contrib.auth.base_user import BaseUserManager
 from django.contrib.auth.models import AbstractUser
 from django.db import models
+from rest_framework.exceptions import ValidationError
 
 
 class CustomUserManager(BaseUserManager):
@@ -65,3 +66,76 @@ class User(AbstractUser):
     class Meta:
         verbose_name = 'Пользователь'
         verbose_name_plural = 'Пользователи'
+
+
+class Payment(models.Model):
+    # Способы оплаты
+    PAYMENT_CASH = 'cash'
+    PAYMENT_TRANSFER = 'transfer'
+
+    PAYMENT_METHODS = [
+        (PAYMENT_CASH, 'Наличные'),
+        (PAYMENT_TRANSFER, 'Перевод на счет'),
+    ]
+
+    # Связи
+    user = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        verbose_name='Пользователь',
+        related_name='payments'
+    )
+
+    # Оплаченный курс (может быть null если оплачен урок)
+    paid_course = models.ForeignKey(
+        'lms.Curse',  # Ссылка на модель из другого приложения
+        on_delete=models.SET_NULL,
+        verbose_name='Оплаченный курс',
+        null=True,
+        blank=True,
+        related_name='payments'
+    )
+
+    # Оплаченный урок (может быть null если оплачен курс)
+    paid_lesson = models.ForeignKey(
+        'lms.Lesson',  # Ссылка на модель из другого приложения
+        on_delete=models.SET_NULL,
+        verbose_name='Оплаченный урок',
+        null=True,
+        blank=True,
+        related_name='payments'
+    )
+
+    # Поля оплаты
+    amount = models.DecimalField(
+        max_digits=10,
+        decimal_places=2,
+        verbose_name='Сумма оплаты'
+    )
+
+    payment_date = models.DateTimeField(
+        auto_now_add=True,
+        verbose_name='Дата оплаты'
+    )
+
+    payment_method = models.CharField(
+        max_length=20,
+        choices=PAYMENT_METHODS,
+        verbose_name='Способ оплаты'
+    )
+
+    # Валидация: оплачен либо курс, либо урок
+    def clean(self):
+        if self.paid_course and self.paid_lesson:
+            raise ValidationError('Оплата может быть только за курс ИЛИ за урок')
+        if not self.paid_course and not self.paid_lesson:
+            raise ValidationError('Укажите либо курс, либо урок для оплаты')
+
+    def __str__(self):
+        what_paid = self.paid_course.title if self.paid_course else self.paid_lesson.title
+        return f'{self.user.email} - {what_paid} - {self.amount}'
+
+    class Meta:
+        verbose_name = 'Платеж'
+        verbose_name_plural = 'Платежи'
+        ordering = ['-payment_date']
