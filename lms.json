@@ -6,7 +6,7 @@
         "title": "Первый курс",
         "image": "",
         "description": "Вступительный образовательный курс учащихся!",
-        "owner": null
+        "owner": 1
     }
 },
 {
@@ -16,7 +16,7 @@
         "title": "Второй курс",
         "image": "",
         "description": "Продолжение образовательного курса учащихся!",
-        "owner": null
+        "owner": 2
     }
 },
 {
@@ -26,7 +26,7 @@
         "title": "Python для начинающих",
         "image": "",
         "description": "Изучаем Python с нуля",
-        "owner": null
+        "owner": 3
     }
 },
 {
@@ -36,7 +36,7 @@
         "title": "Новый курс",
         "image": "",
         "description": "Описание",
-        "owner": null
+        "owner": 1
     }
 },
 {
@@ -60,6 +60,16 @@
     }
 },
 {
+    "model": "lms.curse",
+    "pk": 8,
+    "fields": {
+        "title": "Новый курс 4_1",
+        "image": "",
+        "description": "MegaFon1",
+        "owner": 2
+    }
+},
+{
     "model": "lms.lesson",
     "pk": 1,
     "fields": {
@@ -68,7 +78,7 @@
         "description": "Вступительное занятие для начального образовательного курса.",
         "link_video": null,
         "curse": 1,
-        "owner": null
+        "owner": 1
     }
 },
 {
@@ -80,7 +90,7 @@
         "description": "Второе вступительное занятие для начального образовательного курса.",
         "link_video": null,
         "curse": 1,
-        "owner": null
+        "owner": 1
     }
 },
 {
@@ -92,7 +102,7 @@
         "description": "Первое занятие для студентов второго курса.",
         "link_video": null,
         "curse": 2,
-        "owner": null
+        "owner": 1
     }
 },
 {
@@ -104,7 +114,7 @@
         "description": "Учимся писать первую программу",
         "link_video": null,
         "curse": 1,
-        "owner": null
+        "owner": 2
     }
 },
 {
@@ -116,7 +126,19 @@
         "description": "Учимся писать сложную программу",
         "link_video": null,
         "curse": 3,
-        "owner": null
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 6,
+    "fields": {
+        "title": "Что то непонятное",
+        "preview": "",
+        "description": "Очень сложный урок",
+        "link_video": null,
+        "curse": 2,
+        "owner": 3
     }
 }
 ]

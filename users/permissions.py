@@ -5,16 +5,9 @@ class IsModer(permissions.BasePermission):
     """
     Проверка, является пользователь модератором или нет.
     """
+
     def has_permission(self, request, view):
         return request.user.groups.filter(name="Moders").exists()
-
-
-class NotModer(permissions.BasePermission):
-    """
-    Проверка, что пользователь НЕ модератор.
-    """
-    def has_permission(self, request, view):
-        return not request.user.groups.filter(name="Moders").exists()
 
 
 class IsOwner(permissions.BasePermission):
@@ -23,6 +16,4 @@ class IsOwner(permissions.BasePermission):
     """
 
     def has_object_permission(self, request, view, obj):
-        if obj.owner == request.user:
-            return True
-        return False
+        return obj.owner == request.user

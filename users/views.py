@@ -35,12 +35,17 @@ class PaymentViewSet(viewsets.ModelViewSet):
     filter_backends = [DjangoFilterBackend, filters.OrderingFilter]
     filterset_class = PaymentFilter
 
-    # Фильтр по пользователю
     def get_queryset(self):
+        """
+        Фильтруем платежи:
+        - Модераторы видят ВСЕ платежи
+        - Обычные пользователи видят только СВОИ платежи
+        """
         user = self.request.user
-        queryset = Payment.objects.all()
 
-        if not user.is_staff:
-            queryset = queryset.filter(user=user)
+        # Если пользователь модератор - показываем все платежи
+        if user.groups.filter(name="Moders").exists():
+            return Payment.objects.all()
 
-        return queryset
+        # Иначе показываем только платежи пользователя
+        return Payment.objects.filter(user=user)
