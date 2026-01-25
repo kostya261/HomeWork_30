@@ -7,6 +7,12 @@ class PaymentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Payment
         fields = '__all__'
+        read_only_fields = ['user', 'payment_date']
+
+        def create(self, validated_data):
+            # Автоматически подставляем текущего пользователя
+            validated_data['user'] = self.context['request'].user
+            return super().create(validated_data)
 
 
 class UserSerializer(serializers.ModelSerializer):

@@ -1,5 +1,7 @@
 from django.db import models
 
+from users.models import User
+
 
 class Curse(models.Model):
     title = models.CharField(
@@ -22,6 +24,14 @@ class Curse(models.Model):
         null=True,
         help_text='Введите описание'
     )
+
+    owner = models.ForeignKey(
+        User,
+        on_delete=models.SET_NULL,
+        blank=True,
+        null=True,
+        verbose_name='Владелец',
+        help_text='Укажите владельца')
 
     def __str__(self):
         return f'{self.title}'
@@ -68,6 +78,13 @@ class Lesson(models.Model):
         blank=True,
         null=True
     )
+
+    owner = models.ForeignKey(
+        User,
+        on_delete=models.SET_NULL,
+        blank=True, null=True,
+        verbose_name='Владелец',
+        help_text='Укажите владельца')
 
     def __str__(self):
         return f'{self.title}'

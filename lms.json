@@ -5,7 +5,8 @@
     "fields": {
         "title": "Первый курс",
         "image": "",
-        "description": "Вступительный образовательный курс учащихся!"
+        "description": "Вступительный образовательный курс учащихся!",
+        "owner": 1
     }
 },
 {
@@ -14,7 +15,8 @@
     "fields": {
         "title": "Второй курс",
         "image": "",
-        "description": "Продолжение образовательного курса учащихся!"
+        "description": "Продолжение образовательного курса учащихся!",
+        "owner": 2
     }
 },
 {
@@ -23,7 +25,48 @@
     "fields": {
         "title": "Python для начинающих",
         "image": "",
-        "description": "Изучаем Python с нуля"
+        "description": "Изучаем Python с нуля",
+        "owner": 3
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 4,
+    "fields": {
+        "title": "Новый курс",
+        "image": "",
+        "description": "Описание",
+        "owner": 1
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 6,
+    "fields": {
+        "title": "Новый курс 2",
+        "image": "",
+        "description": "Описание 2",
+        "owner": 1
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 7,
+    "fields": {
+        "title": "Новый курс 3",
+        "image": "",
+        "description": "Описание 333",
+        "owner": 3
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 8,
+    "fields": {
+        "title": "Новый курс 4_1",
+        "image": "",
+        "description": "MegaFon1",
+        "owner": 2
     }
 },
 {
@@ -34,7 +77,8 @@
         "preview": "",
         "description": "Вступительное занятие для начального образовательного курса.",
         "link_video": null,
-        "curse": 1
+        "curse": 1,
+        "owner": 1
     }
 },
 {
@@ -45,7 +89,8 @@
         "preview": "",
         "description": "Второе вступительное занятие для начального образовательного курса.",
         "link_video": null,
-        "curse": 1
+        "curse": 1,
+        "owner": 1
     }
 },
 {
@@ -56,7 +101,8 @@
         "preview": "",
         "description": "Первое занятие для студентов второго курса.",
         "link_video": null,
-        "curse": 2
+        "curse": 2,
+        "owner": 1
     }
 },
 {
@@ -67,7 +113,8 @@
         "preview": "",
         "description": "Учимся писать первую программу",
         "link_video": null,
-        "curse": 1
+        "curse": 1,
+        "owner": 2
     }
 },
 {
@@ -78,7 +125,20 @@
         "preview": "",
         "description": "Учимся писать сложную программу",
         "link_video": null,
-        "curse": 3
+        "curse": 3,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 6,
+    "fields": {
+        "title": "Что то непонятное",
+        "preview": "",
+        "description": "Очень сложный урок",
+        "link_video": null,
+        "curse": 2,
+        "owner": 3
     }
 }
 ]
