@@ -1,7 +1,11 @@
-from rest_framework import viewsets, generics
+from django.shortcuts import get_object_or_404
+from rest_framework import viewsets, generics, status
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.response import Response
+from rest_framework.views import APIView
 
-from lms.models import Curse, Lesson
+from lms.models import Curse, Lesson, Subscription
+from lms.paginators import CursePaginator
 from lms.serializers import CurseSerializer, LessonSerializer, CurseDetailSerializer
 from users.permissions import IsModer, IsOwner
 
@@ -13,6 +17,7 @@ logger = logging.getLogger(__name__)
 class CurseViewSet(viewsets.ModelViewSet):
     serializer_class = CurseSerializer
     queryset = Curse.objects.all()
+    pagination_class = CursePaginator
 
     def get_queryset(self):
         """
@@ -45,7 +50,7 @@ class CurseViewSet(viewsets.ModelViewSet):
             permission_classes = [IsAuthenticated, IsModer | IsOwner]
         elif self.action == 'destroy':
             permission_classes = [IsAuthenticated, ~IsModer, IsOwner]
-        else:  # list, retrieve
+        else:
             permission_classes = [IsAuthenticated]
 
         return [permission() for permission in permission_classes]
@@ -63,6 +68,7 @@ class LessonCreateAPIView(generics.CreateAPIView):
 class LessonListAPIView(generics.ListAPIView):
     serializer_class = LessonSerializer
     permission_classes = [IsAuthenticated]
+    pagination_class = CursePaginator
 
     def get_queryset(self):
         """
@@ -122,3 +128,49 @@ class LessonDestroyAPIView(generics.DestroyAPIView):
             return Lesson.objects.all()
 
         return Lesson.objects.filter(owner=user)
+
+
+class SubscriptionToggleAPIView(APIView):
+    """
+    APIView для управления подпиской на курс.
+    POST: Добавить/удалить подписку
+    """
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request, *args, **kwargs):
+        from .serializers import SubscriptionToggleSerializer
+        from .models import Curse
+
+        # Валидируем входные данные
+        serializer = SubscriptionToggleSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+
+        user = request.user
+        course_id = serializer.validated_data['course_id']
+
+        # Получаем курс
+        course = get_object_or_404(Curse, id=course_id)
+
+        # Ищем существующую подписку
+        subscription = Subscription.objects.filter(
+            user=user,
+            course=course
+        ).first()
+
+        # Если подписка существует - удаляем
+        if subscription:
+            subscription.delete()
+            message = 'Подписка удалена'
+            subscribed = False
+        # Если подписки нет - создаем
+        else:
+            Subscription.objects.create(user=user, course=course)
+            message = 'Подписка добавлена'
+            subscribed = True
+
+        return Response({
+            "message": message,
+            "subscribed": subscribed,
+            "course_id": course_id,
+            "course_title": course.title
+        }, status=status.HTTP_200_OK)
