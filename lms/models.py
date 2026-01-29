@@ -92,3 +92,39 @@ class Lesson(models.Model):
     class Meta:
         verbose_name = 'Урок'
         verbose_name_plural = 'Уроки'
+        ordering = ['id']
+
+
+class Subscription(models.Model):
+    """
+    Модель подписки пользователя на курс.
+    """
+    user = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        verbose_name='Пользователь',
+        related_name='subscriptions'
+    )
+
+    course = models.ForeignKey(
+        Curse,
+        on_delete=models.CASCADE,
+        verbose_name='Курс',
+        related_name='subscriptions'
+    )
+
+    # Дата подписки
+    subscribed_at = models.DateTimeField(
+        auto_now_add=True,
+        verbose_name='Дата подписки'
+    )
+
+    # Уникальная пара пользователь-курс (один пользователь - одна подписка на курс)
+    class Meta:
+        verbose_name = 'Подписка'
+        verbose_name_plural = 'Подписки'
+        unique_together = ['user', 'course']  # Важно!
+        ordering = ['-subscribed_at']
+
+    def __str__(self):
+        return f'{self.user.email} подписан на {self.course.title}'

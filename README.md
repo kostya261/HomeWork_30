@@ -1,11 +1,11 @@
-# 🐍 Домашняя работа 31
+# 🐍 Домашняя работа 32_1
 
 Домашняя работа по основам Django REST
 
 ## 📦 Установка и настройка
 
 1. Клонируйте репозиторий:
-   [ссылка](https://github.com/kostya261/HomeWork_30/pull/3)
+   [ссылка](https://github.com/kostya261/HomeWork_30/pull/4)
 
 ## Использование:
 
@@ -25,26 +25,28 @@ POST > localhost:8000/curse/
 Об этом что ли здесь писать?
 
 ## Добавлено
-Права пользователей, группа Модераторов
+Валидация, пагинация, тесты
 
 ## Структура проекта
 
 HomeWork_30/
-├── lms/                              # непосредственно приложение
-│ ├── management/                      #
-│ └── migrations/                      #
-
+├── lms/                                # непосредственно приложение
+│  ├── management/                      #
+│  ├── migrations/                      #
+│  ├── models.py
+│  ├── views.py
+│  ├── serializer.py
+│  ├── permissions.py
+│  ├── filters.py
+│  └── urls.py
+│
 ├── user/
-│     └── templates/user/
-│  
-├── models.py # Кастомная модель User
-├── services.py # Сервисные функции
-├── views.py # Представления
-├── urls.py # Маршруты с app_name='users'
-├── admin.py # админка для User
+│     ├── templates/user/
+│     ├── admin.py # админка для User
+│     ├── models.py # Кастомная модель User
+│     ├── views.py # Представления│
+│     └── urls.py # Маршруты с app_name='users'
 │ 
-│ 
-
 ├── config/ # конфигурационные файлы django│    
 ├── media/ # Медиа файлы (снимки товаров)
 └── README.md # Этот файл
