@@ -27,6 +27,9 @@ class CurseViewSet(viewsets.ModelViewSet):
         """
         user = self.request.user
 
+        if getattr(self, 'swagger_fake_view', False):
+            return Curse.objects.none()
+
         # Если пользователь модератор - показываем все курсы
         if user.groups.filter(name="Moders").exists():
             return Curse.objects.all()
@@ -78,6 +81,9 @@ class LessonListAPIView(generics.ListAPIView):
          """
         user = self.request.user
 
+        if getattr(self, 'swagger_fake_view', False):
+            return Lesson.objects.none()
+
         # Если пользователь модератор - показываем все уроки
         if user.groups.filter(name="Moders").exists():
             return Lesson.objects.all()
@@ -92,8 +98,11 @@ class LessonRetrieveAPIView(generics.RetrieveAPIView):
     permission_classes = [IsModer | IsOwner, IsAuthenticated]
 
     def get_queryset(self):
-        """Фильтруем queryset так же как в LessonListAPIView"""
+        """ Фильтруем queryset так же как в LessonListAPIView """
         user = self.request.user
+
+        if getattr(self, 'swagger_fake_view', False):
+            return Lesson.objects.none()
 
         if user.groups.filter(name="Moders").exists():
             return Lesson.objects.all()
@@ -107,8 +116,11 @@ class LessonUpdateAPIView(generics.UpdateAPIView):
     permission_classes = [IsModer | IsOwner, IsAuthenticated]
 
     def get_queryset(self):
-        """Фильтруем queryset так же как в LessonListAPIView"""
+        """ Фильтруем queryset так же как в LessonListAPIView """
         user = self.request.user
+
+        if getattr(self, 'swagger_fake_view', False):
+            return Lesson.objects.none()
 
         if user.groups.filter(name="Moders").exists():
             return Lesson.objects.all()
@@ -121,8 +133,11 @@ class LessonDestroyAPIView(generics.DestroyAPIView):
     permission_classes = [IsAuthenticated, ~IsModer, IsOwner]
 
     def get_queryset(self):
-        """Фильтруем queryset так же как в LessonListAPIView"""
+        """ Фильтруем queryset так же как в LessonListAPIView """
         user = self.request.user
+
+        if getattr(self, 'swagger_fake_view', False):
+            return Lesson.objects.none()
 
         if user.groups.filter(name="Moders").exists():
             return Lesson.objects.all()

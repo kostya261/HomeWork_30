@@ -83,7 +83,8 @@ class Payment(models.Model):
         User,
         on_delete=models.CASCADE,
         verbose_name='Пользователь',
-        related_name='payments'
+        related_name='payments',
+        help_text='Укажите пользователя'
     )
 
     # Оплаченный курс (может быть null если оплачен урок)
@@ -110,7 +111,8 @@ class Payment(models.Model):
     amount = models.DecimalField(
         max_digits=10,
         decimal_places=2,
-        verbose_name='Сумма оплаты'
+        verbose_name='Сумма оплаты',
+        help_text='Укажите сумму оплаты'
     )
 
     payment_date = models.DateTimeField(
@@ -122,6 +124,40 @@ class Payment(models.Model):
         max_length=20,
         choices=PAYMENT_METHODS,
         verbose_name='Способ оплаты'
+    )
+
+    link_payment = models.URLField(
+        max_length=1000,
+        blank=True,
+        null=True,
+        verbose_name='Ссылка на оплату',
+        help_text='Укажите ссылку на оплату'
+    )
+
+    # Поля для Stripe
+    stripe_session_id = models.CharField(
+        max_length=255,
+        blank=True,
+        null=True,
+        verbose_name='ID сессии Stripe'
+    )
+
+    stripe_price_id = models.CharField(
+        max_length=255,
+        blank=True,
+        null=True,
+        verbose_name='ID цены Stripe'
+    )
+
+    status = models.CharField(
+        max_length=50,
+        default='pending',
+        verbose_name='Статус оплаты',
+        choices=[
+            ('pending', 'Ожидает оплаты'),
+            ('paid', 'Оплачено'),
+            ('canceled', 'Отменено'),
+        ]
     )
 
     # Валидация: оплачен либо курс, либо урок
