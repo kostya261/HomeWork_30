@@ -70,6 +70,206 @@
     }
 },
 {
+    "model": "lms.curse",
+    "pk": 9,
+    "fields": {
+        "title": "Python с нуля - Курс 1",
+        "image": "",
+        "description": "Полный курс Python для начинающих",
+        "owner": 4
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 10,
+    "fields": {
+        "title": "Django для профессионалов - Курс 2",
+        "image": "",
+        "description": "Глубокое погружение в Django",
+        "owner": 4
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 11,
+    "fields": {
+        "title": "JavaScript Advanced - Курс 3",
+        "image": "",
+        "description": "Продвинутый JavaScript и ES6+",
+        "owner": 2
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 12,
+    "fields": {
+        "title": "React + Redux - Курс 4",
+        "image": "",
+        "description": "Современный фронтенд на React",
+        "owner": 1
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 13,
+    "fields": {
+        "title": "Базы данных SQL - Курс 5",
+        "image": "",
+        "description": "PostgreSQL, MySQL, оптимизация запросов",
+        "owner": 3
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 14,
+    "fields": {
+        "title": "Docker и Kubernetes - Курс 6",
+        "image": "",
+        "description": "Контейнеризация и оркестрация",
+        "owner": 4
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 15,
+    "fields": {
+        "title": "Машинное обучение - Курс 7",
+        "image": "",
+        "description": "AI и ML на Python",
+        "owner": 3
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 16,
+    "fields": {
+        "title": "Веб-безопасность - Курс 8",
+        "image": "",
+        "description": "OWASP, XSS, SQL injection",
+        "owner": 3
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 17,
+    "fields": {
+        "title": "Разработка API - Курс 9",
+        "image": "",
+        "description": "REST, GraphQL, gRPC",
+        "owner": 2
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 18,
+    "fields": {
+        "title": "DevOps практики - Курс 10",
+        "image": "",
+        "description": "CI/CD, мониторинг, автоматизация",
+        "owner": 1
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 19,
+    "fields": {
+        "title": "Мобильная разработка - Курс 11",
+        "image": "",
+        "description": "React Native, Flutter",
+        "owner": 1
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 20,
+    "fields": {
+        "title": "Тестирование ПО - Курс 12",
+        "image": "",
+        "description": "Unit tests, интеграционные тесты",
+        "owner": 4
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 21,
+    "fields": {
+        "title": "Архитектура ПО - Курс 13",
+        "image": "",
+        "description": "Микросервисы, DDD, Clean Architecture",
+        "owner": 4
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 22,
+    "fields": {
+        "title": "Алгоритмы и структуры - Курс 14",
+        "image": "",
+        "description": "Подготовка к собеседованиям",
+        "owner": 1
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 23,
+    "fields": {
+        "title": "Linux для разработчиков - Курс 15",
+        "image": "",
+        "description": "Администрирование, bash-скрипты",
+        "owner": 1
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 24,
+    "fields": {
+        "title": "Git и GitHub - Курс 16",
+        "image": "",
+        "description": "Версионный контроль, collaboration",
+        "owner": 1
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 25,
+    "fields": {
+        "title": "UI/UX дизайн - Курс 17",
+        "image": "",
+        "description": "Figma, Adobe XD, прототипирование",
+        "owner": 4
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 26,
+    "fields": {
+        "title": "Блокчейн разработка - Курс 18",
+        "image": "",
+        "description": "Solidity, Smart Contracts",
+        "owner": 2
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 27,
+    "fields": {
+        "title": "Big Data - Курс 19",
+        "image": "",
+        "description": "Hadoop, Spark, обработка больших данных",
+        "owner": 3
+    }
+},
+{
+    "model": "lms.curse",
+    "pk": 28,
+    "fields": {
+        "title": "Soft Skills - Курс 20",
+        "image": "",
+        "description": "Коммуникация, тайм-менеджмент, презентации",
+        "owner": 1
+    }
+},
+{
     "model": "lms.lesson",
     "pk": 1,
     "fields": {
@@ -139,6 +339,3267 @@
         "link_video": null,
         "curse": 2,
         "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 7,
+    "fields": {
+        "title": "Урок с YouTube",
+        "preview": "",
+        "description": "Смотрите видео на YouTube: https://youtu.be/test123",
+        "link_video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "curse": 1,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 8,
+    "fields": {
+        "title": "Новый курс 2 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Новый курс 2",
+        "link_video": "https://youtube.com/watch?v=361010",
+        "curse": 6,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 9,
+    "fields": {
+        "title": "Новый курс 2 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Новый курс 2",
+        "link_video": "https://youtube.com/watch?v=962922",
+        "curse": 6,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 10,
+    "fields": {
+        "title": "Новый курс 2 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Новый курс 2",
+        "link_video": "https://youtube.com/watch?v=347135",
+        "curse": 6,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 11,
+    "fields": {
+        "title": "Новый курс 2 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Новый курс 2",
+        "link_video": "https://youtube.com/watch?v=840748",
+        "curse": 6,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 12,
+    "fields": {
+        "title": "Новый курс 2 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Новый курс 2",
+        "link_video": "https://youtube.com/watch?v=942783",
+        "curse": 6,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 13,
+    "fields": {
+        "title": "Новый курс 2 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Новый курс 2",
+        "link_video": "https://youtube.com/watch?v=138849",
+        "curse": 6,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 14,
+    "fields": {
+        "title": "Новый курс 2 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Новый курс 2",
+        "link_video": "https://youtube.com/watch?v=225929",
+        "curse": 6,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 15,
+    "fields": {
+        "title": "Новый курс 2 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Новый курс 2",
+        "link_video": "https://youtube.com/watch?v=832345",
+        "curse": 6,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 16,
+    "fields": {
+        "title": "Новый курс 2 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Новый курс 2",
+        "link_video": "https://youtube.com/watch?v=704543",
+        "curse": 6,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 17,
+    "fields": {
+        "title": "Новый курс 2 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Новый курс 2",
+        "link_video": "https://youtube.com/watch?v=804394",
+        "curse": 6,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 18,
+    "fields": {
+        "title": "Новый курс 3 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Новый курс 3",
+        "link_video": "https://youtube.com/watch?v=545627",
+        "curse": 7,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 19,
+    "fields": {
+        "title": "Новый курс 3 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Новый курс 3",
+        "link_video": "https://youtube.com/watch?v=937142",
+        "curse": 7,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 20,
+    "fields": {
+        "title": "Новый курс 3 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Новый курс 3",
+        "link_video": "https://youtube.com/watch?v=770910",
+        "curse": 7,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 21,
+    "fields": {
+        "title": "Новый курс 3 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Новый курс 3",
+        "link_video": "https://youtube.com/watch?v=134608",
+        "curse": 7,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 22,
+    "fields": {
+        "title": "Новый курс 3 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Новый курс 3",
+        "link_video": "https://youtube.com/watch?v=657462",
+        "curse": 7,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 23,
+    "fields": {
+        "title": "Новый курс 3 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Новый курс 3",
+        "link_video": "https://youtube.com/watch?v=690446",
+        "curse": 7,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 24,
+    "fields": {
+        "title": "Новый курс 3 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Новый курс 3",
+        "link_video": "https://youtube.com/watch?v=771183",
+        "curse": 7,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 25,
+    "fields": {
+        "title": "Новый курс 3 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Новый курс 3",
+        "link_video": "https://youtube.com/watch?v=195281",
+        "curse": 7,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 26,
+    "fields": {
+        "title": "Новый курс 3 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Новый курс 3",
+        "link_video": "https://youtube.com/watch?v=803467",
+        "curse": 7,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 27,
+    "fields": {
+        "title": "Новый курс 3 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Новый курс 3",
+        "link_video": "https://youtube.com/watch?v=525078",
+        "curse": 7,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 28,
+    "fields": {
+        "title": "Новый курс 4_1 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Новый курс 4_1",
+        "link_video": "https://youtube.com/watch?v=396426",
+        "curse": 8,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 29,
+    "fields": {
+        "title": "Новый курс 4_1 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Новый курс 4_1",
+        "link_video": "https://youtube.com/watch?v=421250",
+        "curse": 8,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 30,
+    "fields": {
+        "title": "Новый курс 4_1 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Новый курс 4_1",
+        "link_video": "https://youtube.com/watch?v=484187",
+        "curse": 8,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 31,
+    "fields": {
+        "title": "Новый курс 4_1 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Новый курс 4_1",
+        "link_video": "https://youtube.com/watch?v=414930",
+        "curse": 8,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 32,
+    "fields": {
+        "title": "Новый курс 4_1 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Новый курс 4_1",
+        "link_video": "https://youtube.com/watch?v=207086",
+        "curse": 8,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 33,
+    "fields": {
+        "title": "Новый курс 4_1 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Новый курс 4_1",
+        "link_video": "https://youtube.com/watch?v=619334",
+        "curse": 8,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 34,
+    "fields": {
+        "title": "Новый курс 4_1 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Новый курс 4_1",
+        "link_video": "https://youtube.com/watch?v=709618",
+        "curse": 8,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 35,
+    "fields": {
+        "title": "Новый курс 4_1 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Новый курс 4_1",
+        "link_video": "https://youtube.com/watch?v=912355",
+        "curse": 8,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 36,
+    "fields": {
+        "title": "Новый курс 4_1 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Новый курс 4_1",
+        "link_video": "https://youtube.com/watch?v=339750",
+        "curse": 8,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 37,
+    "fields": {
+        "title": "Новый курс 4_1 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Новый курс 4_1",
+        "link_video": "https://youtube.com/watch?v=602547",
+        "curse": 8,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 38,
+    "fields": {
+        "title": "Первый курс - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Первый курс",
+        "link_video": "https://youtube.com/watch?v=432126",
+        "curse": 1,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 39,
+    "fields": {
+        "title": "Первый курс - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Первый курс",
+        "link_video": "https://youtube.com/watch?v=359551",
+        "curse": 1,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 40,
+    "fields": {
+        "title": "Первый курс - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Первый курс",
+        "link_video": "https://youtube.com/watch?v=883791",
+        "curse": 1,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 41,
+    "fields": {
+        "title": "Первый курс - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Первый курс",
+        "link_video": "https://youtube.com/watch?v=999173",
+        "curse": 1,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 42,
+    "fields": {
+        "title": "Первый курс - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Первый курс",
+        "link_video": "https://youtube.com/watch?v=897922",
+        "curse": 1,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 43,
+    "fields": {
+        "title": "Первый курс - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Первый курс",
+        "link_video": "https://youtube.com/watch?v=837937",
+        "curse": 1,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 44,
+    "fields": {
+        "title": "Первый курс - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Первый курс",
+        "link_video": "https://youtube.com/watch?v=889984",
+        "curse": 1,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 45,
+    "fields": {
+        "title": "Первый курс - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Первый курс",
+        "link_video": "https://youtube.com/watch?v=584699",
+        "curse": 1,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 46,
+    "fields": {
+        "title": "Первый курс - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Первый курс",
+        "link_video": "https://youtube.com/watch?v=860792",
+        "curse": 1,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 47,
+    "fields": {
+        "title": "Первый курс - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Первый курс",
+        "link_video": "https://youtube.com/watch?v=654862",
+        "curse": 1,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 48,
+    "fields": {
+        "title": "Второй курс - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Второй курс",
+        "link_video": "https://youtube.com/watch?v=911593",
+        "curse": 2,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 49,
+    "fields": {
+        "title": "Второй курс - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Второй курс",
+        "link_video": "https://youtube.com/watch?v=808193",
+        "curse": 2,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 50,
+    "fields": {
+        "title": "Второй курс - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Второй курс",
+        "link_video": "https://youtube.com/watch?v=697513",
+        "curse": 2,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 51,
+    "fields": {
+        "title": "Второй курс - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Второй курс",
+        "link_video": "https://youtube.com/watch?v=390867",
+        "curse": 2,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 52,
+    "fields": {
+        "title": "Второй курс - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Второй курс",
+        "link_video": "https://youtube.com/watch?v=743156",
+        "curse": 2,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 53,
+    "fields": {
+        "title": "Второй курс - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Второй курс",
+        "link_video": "https://youtube.com/watch?v=202912",
+        "curse": 2,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 54,
+    "fields": {
+        "title": "Второй курс - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Второй курс",
+        "link_video": "https://youtube.com/watch?v=314137",
+        "curse": 2,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 55,
+    "fields": {
+        "title": "Второй курс - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Второй курс",
+        "link_video": "https://youtube.com/watch?v=712798",
+        "curse": 2,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 56,
+    "fields": {
+        "title": "Второй курс - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Второй курс",
+        "link_video": "https://youtube.com/watch?v=223338",
+        "curse": 2,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 57,
+    "fields": {
+        "title": "Второй курс - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Второй курс",
+        "link_video": "https://youtube.com/watch?v=678711",
+        "curse": 2,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 58,
+    "fields": {
+        "title": "Python для начинающих - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Python для начинающих",
+        "link_video": "https://youtube.com/watch?v=291534",
+        "curse": 3,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 59,
+    "fields": {
+        "title": "Python для начинающих - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Python для начинающих",
+        "link_video": "https://youtube.com/watch?v=587120",
+        "curse": 3,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 60,
+    "fields": {
+        "title": "Python для начинающих - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Python для начинающих",
+        "link_video": "https://youtube.com/watch?v=593591",
+        "curse": 3,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 61,
+    "fields": {
+        "title": "Python для начинающих - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Python для начинающих",
+        "link_video": "https://youtube.com/watch?v=865350",
+        "curse": 3,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 62,
+    "fields": {
+        "title": "Python для начинающих - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Python для начинающих",
+        "link_video": "https://youtube.com/watch?v=343605",
+        "curse": 3,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 63,
+    "fields": {
+        "title": "Python для начинающих - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Python для начинающих",
+        "link_video": "https://youtube.com/watch?v=742065",
+        "curse": 3,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 64,
+    "fields": {
+        "title": "Python для начинающих - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Python для начинающих",
+        "link_video": "https://youtube.com/watch?v=951465",
+        "curse": 3,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 65,
+    "fields": {
+        "title": "Python для начинающих - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Python для начинающих",
+        "link_video": "https://youtube.com/watch?v=786440",
+        "curse": 3,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 66,
+    "fields": {
+        "title": "Python для начинающих - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Python для начинающих",
+        "link_video": "https://youtube.com/watch?v=483370",
+        "curse": 3,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 67,
+    "fields": {
+        "title": "Python для начинающих - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Python для начинающих",
+        "link_video": "https://youtube.com/watch?v=926221",
+        "curse": 3,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 68,
+    "fields": {
+        "title": "Новый курс - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Новый курс",
+        "link_video": "https://youtube.com/watch?v=610880",
+        "curse": 4,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 69,
+    "fields": {
+        "title": "Новый курс - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Новый курс",
+        "link_video": "https://youtube.com/watch?v=524047",
+        "curse": 4,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 70,
+    "fields": {
+        "title": "Новый курс - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Новый курс",
+        "link_video": "https://youtube.com/watch?v=382709",
+        "curse": 4,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 71,
+    "fields": {
+        "title": "Новый курс - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Новый курс",
+        "link_video": "https://youtube.com/watch?v=235320",
+        "curse": 4,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 72,
+    "fields": {
+        "title": "Новый курс - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Новый курс",
+        "link_video": "https://youtube.com/watch?v=889894",
+        "curse": 4,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 73,
+    "fields": {
+        "title": "Новый курс - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Новый курс",
+        "link_video": "https://youtube.com/watch?v=239367",
+        "curse": 4,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 74,
+    "fields": {
+        "title": "Новый курс - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Новый курс",
+        "link_video": "https://youtube.com/watch?v=180796",
+        "curse": 4,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 75,
+    "fields": {
+        "title": "Новый курс - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Новый курс",
+        "link_video": "https://youtube.com/watch?v=603789",
+        "curse": 4,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 76,
+    "fields": {
+        "title": "Новый курс - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Новый курс",
+        "link_video": "https://youtube.com/watch?v=750181",
+        "curse": 4,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 77,
+    "fields": {
+        "title": "Новый курс - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Новый курс",
+        "link_video": "https://youtube.com/watch?v=773254",
+        "curse": 4,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 78,
+    "fields": {
+        "title": "Python с нуля - Курс 1 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Python с нуля - Курс 1",
+        "link_video": "https://youtube.com/watch?v=819822",
+        "curse": 9,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 79,
+    "fields": {
+        "title": "Python с нуля - Курс 1 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Python с нуля - Курс 1",
+        "link_video": "https://youtube.com/watch?v=773969",
+        "curse": 9,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 80,
+    "fields": {
+        "title": "Python с нуля - Курс 1 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Python с нуля - Курс 1",
+        "link_video": "https://youtube.com/watch?v=599014",
+        "curse": 9,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 81,
+    "fields": {
+        "title": "Python с нуля - Курс 1 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Python с нуля - Курс 1",
+        "link_video": "https://youtube.com/watch?v=684027",
+        "curse": 9,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 82,
+    "fields": {
+        "title": "Python с нуля - Курс 1 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Python с нуля - Курс 1",
+        "link_video": "https://youtube.com/watch?v=380127",
+        "curse": 9,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 83,
+    "fields": {
+        "title": "Python с нуля - Курс 1 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Python с нуля - Курс 1",
+        "link_video": "https://youtube.com/watch?v=885743",
+        "curse": 9,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 84,
+    "fields": {
+        "title": "Python с нуля - Курс 1 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Python с нуля - Курс 1",
+        "link_video": "https://youtube.com/watch?v=269970",
+        "curse": 9,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 85,
+    "fields": {
+        "title": "Python с нуля - Курс 1 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Python с нуля - Курс 1",
+        "link_video": "https://youtube.com/watch?v=491243",
+        "curse": 9,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 86,
+    "fields": {
+        "title": "Python с нуля - Курс 1 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Python с нуля - Курс 1",
+        "link_video": "https://youtube.com/watch?v=662395",
+        "curse": 9,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 87,
+    "fields": {
+        "title": "Python с нуля - Курс 1 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Python с нуля - Курс 1",
+        "link_video": "https://youtube.com/watch?v=644499",
+        "curse": 9,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 88,
+    "fields": {
+        "title": "Django для профессионалов - Курс 2 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Django для профессионалов - Курс 2",
+        "link_video": "https://youtube.com/watch?v=814499",
+        "curse": 10,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 89,
+    "fields": {
+        "title": "Django для профессионалов - Курс 2 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Django для профессионалов - Курс 2",
+        "link_video": "https://youtube.com/watch?v=356963",
+        "curse": 10,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 90,
+    "fields": {
+        "title": "Django для профессионалов - Курс 2 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Django для профессионалов - Курс 2",
+        "link_video": "https://youtube.com/watch?v=425295",
+        "curse": 10,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 91,
+    "fields": {
+        "title": "Django для профессионалов - Курс 2 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Django для профессионалов - Курс 2",
+        "link_video": "https://youtube.com/watch?v=346261",
+        "curse": 10,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 92,
+    "fields": {
+        "title": "Django для профессионалов - Курс 2 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Django для профессионалов - Курс 2",
+        "link_video": "https://youtube.com/watch?v=501371",
+        "curse": 10,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 93,
+    "fields": {
+        "title": "Django для профессионалов - Курс 2 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Django для профессионалов - Курс 2",
+        "link_video": "https://youtube.com/watch?v=405898",
+        "curse": 10,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 94,
+    "fields": {
+        "title": "Django для профессионалов - Курс 2 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Django для профессионалов - Курс 2",
+        "link_video": "https://youtube.com/watch?v=258222",
+        "curse": 10,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 95,
+    "fields": {
+        "title": "Django для профессионалов - Курс 2 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Django для профессионалов - Курс 2",
+        "link_video": "https://youtube.com/watch?v=718580",
+        "curse": 10,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 96,
+    "fields": {
+        "title": "Django для профессионалов - Курс 2 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Django для профессионалов - Курс 2",
+        "link_video": "https://youtube.com/watch?v=558095",
+        "curse": 10,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 97,
+    "fields": {
+        "title": "Django для профессионалов - Курс 2 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Django для профессионалов - Курс 2",
+        "link_video": "https://youtube.com/watch?v=136517",
+        "curse": 10,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 98,
+    "fields": {
+        "title": "JavaScript Advanced - Курс 3 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса JavaScript Advanced - Курс 3",
+        "link_video": "https://youtube.com/watch?v=391574",
+        "curse": 11,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 99,
+    "fields": {
+        "title": "JavaScript Advanced - Курс 3 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса JavaScript Advanced - Курс 3",
+        "link_video": "https://youtube.com/watch?v=897288",
+        "curse": 11,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 100,
+    "fields": {
+        "title": "JavaScript Advanced - Курс 3 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса JavaScript Advanced - Курс 3",
+        "link_video": "https://youtube.com/watch?v=525747",
+        "curse": 11,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 101,
+    "fields": {
+        "title": "JavaScript Advanced - Курс 3 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса JavaScript Advanced - Курс 3",
+        "link_video": "https://youtube.com/watch?v=677749",
+        "curse": 11,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 102,
+    "fields": {
+        "title": "JavaScript Advanced - Курс 3 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса JavaScript Advanced - Курс 3",
+        "link_video": "https://youtube.com/watch?v=718216",
+        "curse": 11,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 103,
+    "fields": {
+        "title": "JavaScript Advanced - Курс 3 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса JavaScript Advanced - Курс 3",
+        "link_video": "https://youtube.com/watch?v=328008",
+        "curse": 11,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 104,
+    "fields": {
+        "title": "JavaScript Advanced - Курс 3 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса JavaScript Advanced - Курс 3",
+        "link_video": "https://youtube.com/watch?v=843774",
+        "curse": 11,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 105,
+    "fields": {
+        "title": "JavaScript Advanced - Курс 3 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса JavaScript Advanced - Курс 3",
+        "link_video": "https://youtube.com/watch?v=925376",
+        "curse": 11,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 106,
+    "fields": {
+        "title": "JavaScript Advanced - Курс 3 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса JavaScript Advanced - Курс 3",
+        "link_video": "https://youtube.com/watch?v=488764",
+        "curse": 11,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 107,
+    "fields": {
+        "title": "JavaScript Advanced - Курс 3 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса JavaScript Advanced - Курс 3",
+        "link_video": "https://youtube.com/watch?v=907236",
+        "curse": 11,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 108,
+    "fields": {
+        "title": "React + Redux - Курс 4 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса React + Redux - Курс 4",
+        "link_video": "https://youtube.com/watch?v=778648",
+        "curse": 12,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 109,
+    "fields": {
+        "title": "React + Redux - Курс 4 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса React + Redux - Курс 4",
+        "link_video": "https://youtube.com/watch?v=228621",
+        "curse": 12,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 110,
+    "fields": {
+        "title": "React + Redux - Курс 4 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса React + Redux - Курс 4",
+        "link_video": "https://youtube.com/watch?v=821655",
+        "curse": 12,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 111,
+    "fields": {
+        "title": "React + Redux - Курс 4 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса React + Redux - Курс 4",
+        "link_video": "https://youtube.com/watch?v=990060",
+        "curse": 12,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 112,
+    "fields": {
+        "title": "React + Redux - Курс 4 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса React + Redux - Курс 4",
+        "link_video": "https://youtube.com/watch?v=214234",
+        "curse": 12,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 113,
+    "fields": {
+        "title": "React + Redux - Курс 4 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса React + Redux - Курс 4",
+        "link_video": "https://youtube.com/watch?v=646160",
+        "curse": 12,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 114,
+    "fields": {
+        "title": "React + Redux - Курс 4 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса React + Redux - Курс 4",
+        "link_video": "https://youtube.com/watch?v=610586",
+        "curse": 12,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 115,
+    "fields": {
+        "title": "React + Redux - Курс 4 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса React + Redux - Курс 4",
+        "link_video": "https://youtube.com/watch?v=558656",
+        "curse": 12,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 116,
+    "fields": {
+        "title": "React + Redux - Курс 4 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса React + Redux - Курс 4",
+        "link_video": "https://youtube.com/watch?v=915441",
+        "curse": 12,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 117,
+    "fields": {
+        "title": "React + Redux - Курс 4 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса React + Redux - Курс 4",
+        "link_video": "https://youtube.com/watch?v=873447",
+        "curse": 12,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 118,
+    "fields": {
+        "title": "Базы данных SQL - Курс 5 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Базы данных SQL - Курс 5",
+        "link_video": "https://youtube.com/watch?v=647019",
+        "curse": 13,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 119,
+    "fields": {
+        "title": "Базы данных SQL - Курс 5 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Базы данных SQL - Курс 5",
+        "link_video": "https://youtube.com/watch?v=736145",
+        "curse": 13,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 120,
+    "fields": {
+        "title": "Базы данных SQL - Курс 5 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Базы данных SQL - Курс 5",
+        "link_video": "https://youtube.com/watch?v=213408",
+        "curse": 13,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 121,
+    "fields": {
+        "title": "Базы данных SQL - Курс 5 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Базы данных SQL - Курс 5",
+        "link_video": "https://youtube.com/watch?v=693147",
+        "curse": 13,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 122,
+    "fields": {
+        "title": "Базы данных SQL - Курс 5 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Базы данных SQL - Курс 5",
+        "link_video": "https://youtube.com/watch?v=527085",
+        "curse": 13,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 123,
+    "fields": {
+        "title": "Базы данных SQL - Курс 5 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Базы данных SQL - Курс 5",
+        "link_video": "https://youtube.com/watch?v=616461",
+        "curse": 13,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 124,
+    "fields": {
+        "title": "Базы данных SQL - Курс 5 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Базы данных SQL - Курс 5",
+        "link_video": "https://youtube.com/watch?v=114457",
+        "curse": 13,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 125,
+    "fields": {
+        "title": "Базы данных SQL - Курс 5 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Базы данных SQL - Курс 5",
+        "link_video": "https://youtube.com/watch?v=607936",
+        "curse": 13,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 126,
+    "fields": {
+        "title": "Базы данных SQL - Курс 5 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Базы данных SQL - Курс 5",
+        "link_video": "https://youtube.com/watch?v=372301",
+        "curse": 13,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 127,
+    "fields": {
+        "title": "Базы данных SQL - Курс 5 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Базы данных SQL - Курс 5",
+        "link_video": "https://youtube.com/watch?v=438811",
+        "curse": 13,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 128,
+    "fields": {
+        "title": "Docker и Kubernetes - Курс 6 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Docker и Kubernetes - Курс 6",
+        "link_video": "https://youtube.com/watch?v=787952",
+        "curse": 14,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 129,
+    "fields": {
+        "title": "Docker и Kubernetes - Курс 6 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Docker и Kubernetes - Курс 6",
+        "link_video": "https://youtube.com/watch?v=596541",
+        "curse": 14,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 130,
+    "fields": {
+        "title": "Docker и Kubernetes - Курс 6 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Docker и Kubernetes - Курс 6",
+        "link_video": "https://youtube.com/watch?v=174728",
+        "curse": 14,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 131,
+    "fields": {
+        "title": "Docker и Kubernetes - Курс 6 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Docker и Kubernetes - Курс 6",
+        "link_video": "https://youtube.com/watch?v=658395",
+        "curse": 14,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 132,
+    "fields": {
+        "title": "Docker и Kubernetes - Курс 6 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Docker и Kubernetes - Курс 6",
+        "link_video": "https://youtube.com/watch?v=765109",
+        "curse": 14,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 133,
+    "fields": {
+        "title": "Docker и Kubernetes - Курс 6 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Docker и Kubernetes - Курс 6",
+        "link_video": "https://youtube.com/watch?v=263469",
+        "curse": 14,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 134,
+    "fields": {
+        "title": "Docker и Kubernetes - Курс 6 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Docker и Kubernetes - Курс 6",
+        "link_video": "https://youtube.com/watch?v=367600",
+        "curse": 14,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 135,
+    "fields": {
+        "title": "Docker и Kubernetes - Курс 6 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Docker и Kubernetes - Курс 6",
+        "link_video": "https://youtube.com/watch?v=599032",
+        "curse": 14,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 136,
+    "fields": {
+        "title": "Docker и Kubernetes - Курс 6 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Docker и Kubernetes - Курс 6",
+        "link_video": "https://youtube.com/watch?v=796050",
+        "curse": 14,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 137,
+    "fields": {
+        "title": "Docker и Kubernetes - Курс 6 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Docker и Kubernetes - Курс 6",
+        "link_video": "https://youtube.com/watch?v=937689",
+        "curse": 14,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 138,
+    "fields": {
+        "title": "Машинное обучение - Курс 7 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Машинное обучение - Курс 7",
+        "link_video": "https://youtube.com/watch?v=589461",
+        "curse": 15,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 139,
+    "fields": {
+        "title": "Машинное обучение - Курс 7 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Машинное обучение - Курс 7",
+        "link_video": "https://youtube.com/watch?v=396888",
+        "curse": 15,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 140,
+    "fields": {
+        "title": "Машинное обучение - Курс 7 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Машинное обучение - Курс 7",
+        "link_video": "https://youtube.com/watch?v=961415",
+        "curse": 15,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 141,
+    "fields": {
+        "title": "Машинное обучение - Курс 7 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Машинное обучение - Курс 7",
+        "link_video": "https://youtube.com/watch?v=505702",
+        "curse": 15,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 142,
+    "fields": {
+        "title": "Машинное обучение - Курс 7 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Машинное обучение - Курс 7",
+        "link_video": "https://youtube.com/watch?v=832972",
+        "curse": 15,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 143,
+    "fields": {
+        "title": "Машинное обучение - Курс 7 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Машинное обучение - Курс 7",
+        "link_video": "https://youtube.com/watch?v=910508",
+        "curse": 15,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 144,
+    "fields": {
+        "title": "Машинное обучение - Курс 7 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Машинное обучение - Курс 7",
+        "link_video": "https://youtube.com/watch?v=483881",
+        "curse": 15,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 145,
+    "fields": {
+        "title": "Машинное обучение - Курс 7 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Машинное обучение - Курс 7",
+        "link_video": "https://youtube.com/watch?v=748187",
+        "curse": 15,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 146,
+    "fields": {
+        "title": "Машинное обучение - Курс 7 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Машинное обучение - Курс 7",
+        "link_video": "https://youtube.com/watch?v=209660",
+        "curse": 15,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 147,
+    "fields": {
+        "title": "Машинное обучение - Курс 7 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Машинное обучение - Курс 7",
+        "link_video": "https://youtube.com/watch?v=213648",
+        "curse": 15,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 148,
+    "fields": {
+        "title": "Веб-безопасность - Курс 8 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Веб-безопасность - Курс 8",
+        "link_video": "https://youtube.com/watch?v=546165",
+        "curse": 16,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 149,
+    "fields": {
+        "title": "Веб-безопасность - Курс 8 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Веб-безопасность - Курс 8",
+        "link_video": "https://youtube.com/watch?v=961011",
+        "curse": 16,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 150,
+    "fields": {
+        "title": "Веб-безопасность - Курс 8 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Веб-безопасность - Курс 8",
+        "link_video": "https://youtube.com/watch?v=646559",
+        "curse": 16,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 151,
+    "fields": {
+        "title": "Веб-безопасность - Курс 8 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Веб-безопасность - Курс 8",
+        "link_video": "https://youtube.com/watch?v=742200",
+        "curse": 16,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 152,
+    "fields": {
+        "title": "Веб-безопасность - Курс 8 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Веб-безопасность - Курс 8",
+        "link_video": "https://youtube.com/watch?v=804983",
+        "curse": 16,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 153,
+    "fields": {
+        "title": "Веб-безопасность - Курс 8 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Веб-безопасность - Курс 8",
+        "link_video": "https://youtube.com/watch?v=803030",
+        "curse": 16,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 154,
+    "fields": {
+        "title": "Веб-безопасность - Курс 8 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Веб-безопасность - Курс 8",
+        "link_video": "https://youtube.com/watch?v=725288",
+        "curse": 16,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 155,
+    "fields": {
+        "title": "Веб-безопасность - Курс 8 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Веб-безопасность - Курс 8",
+        "link_video": "https://youtube.com/watch?v=565321",
+        "curse": 16,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 156,
+    "fields": {
+        "title": "Веб-безопасность - Курс 8 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Веб-безопасность - Курс 8",
+        "link_video": "https://youtube.com/watch?v=854269",
+        "curse": 16,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 157,
+    "fields": {
+        "title": "Веб-безопасность - Курс 8 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Веб-безопасность - Курс 8",
+        "link_video": "https://youtube.com/watch?v=642897",
+        "curse": 16,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 158,
+    "fields": {
+        "title": "Разработка API - Курс 9 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Разработка API - Курс 9",
+        "link_video": "https://youtube.com/watch?v=855750",
+        "curse": 17,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 159,
+    "fields": {
+        "title": "Разработка API - Курс 9 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Разработка API - Курс 9",
+        "link_video": "https://youtube.com/watch?v=405985",
+        "curse": 17,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 160,
+    "fields": {
+        "title": "Разработка API - Курс 9 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Разработка API - Курс 9",
+        "link_video": "https://youtube.com/watch?v=364201",
+        "curse": 17,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 161,
+    "fields": {
+        "title": "Разработка API - Курс 9 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Разработка API - Курс 9",
+        "link_video": "https://youtube.com/watch?v=531272",
+        "curse": 17,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 162,
+    "fields": {
+        "title": "Разработка API - Курс 9 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Разработка API - Курс 9",
+        "link_video": "https://youtube.com/watch?v=605553",
+        "curse": 17,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 163,
+    "fields": {
+        "title": "Разработка API - Курс 9 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Разработка API - Курс 9",
+        "link_video": "https://youtube.com/watch?v=305700",
+        "curse": 17,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 164,
+    "fields": {
+        "title": "Разработка API - Курс 9 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Разработка API - Курс 9",
+        "link_video": "https://youtube.com/watch?v=700407",
+        "curse": 17,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 165,
+    "fields": {
+        "title": "Разработка API - Курс 9 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Разработка API - Курс 9",
+        "link_video": "https://youtube.com/watch?v=395917",
+        "curse": 17,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 166,
+    "fields": {
+        "title": "Разработка API - Курс 9 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Разработка API - Курс 9",
+        "link_video": "https://youtube.com/watch?v=311557",
+        "curse": 17,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 167,
+    "fields": {
+        "title": "Разработка API - Курс 9 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Разработка API - Курс 9",
+        "link_video": "https://youtube.com/watch?v=867685",
+        "curse": 17,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 168,
+    "fields": {
+        "title": "DevOps практики - Курс 10 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса DevOps практики - Курс 10",
+        "link_video": "https://youtube.com/watch?v=407294",
+        "curse": 18,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 169,
+    "fields": {
+        "title": "DevOps практики - Курс 10 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса DevOps практики - Курс 10",
+        "link_video": "https://youtube.com/watch?v=324499",
+        "curse": 18,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 170,
+    "fields": {
+        "title": "DevOps практики - Курс 10 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса DevOps практики - Курс 10",
+        "link_video": "https://youtube.com/watch?v=574720",
+        "curse": 18,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 171,
+    "fields": {
+        "title": "DevOps практики - Курс 10 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса DevOps практики - Курс 10",
+        "link_video": "https://youtube.com/watch?v=956157",
+        "curse": 18,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 172,
+    "fields": {
+        "title": "DevOps практики - Курс 10 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса DevOps практики - Курс 10",
+        "link_video": "https://youtube.com/watch?v=437711",
+        "curse": 18,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 173,
+    "fields": {
+        "title": "DevOps практики - Курс 10 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса DevOps практики - Курс 10",
+        "link_video": "https://youtube.com/watch?v=873930",
+        "curse": 18,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 174,
+    "fields": {
+        "title": "DevOps практики - Курс 10 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса DevOps практики - Курс 10",
+        "link_video": "https://youtube.com/watch?v=430247",
+        "curse": 18,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 175,
+    "fields": {
+        "title": "DevOps практики - Курс 10 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса DevOps практики - Курс 10",
+        "link_video": "https://youtube.com/watch?v=585370",
+        "curse": 18,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 176,
+    "fields": {
+        "title": "DevOps практики - Курс 10 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса DevOps практики - Курс 10",
+        "link_video": "https://youtube.com/watch?v=812597",
+        "curse": 18,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 177,
+    "fields": {
+        "title": "DevOps практики - Курс 10 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса DevOps практики - Курс 10",
+        "link_video": "https://youtube.com/watch?v=984507",
+        "curse": 18,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 178,
+    "fields": {
+        "title": "Мобильная разработка - Курс 11 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Мобильная разработка - Курс 11",
+        "link_video": "https://youtube.com/watch?v=279276",
+        "curse": 19,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 179,
+    "fields": {
+        "title": "Мобильная разработка - Курс 11 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Мобильная разработка - Курс 11",
+        "link_video": "https://youtube.com/watch?v=868829",
+        "curse": 19,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 180,
+    "fields": {
+        "title": "Мобильная разработка - Курс 11 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Мобильная разработка - Курс 11",
+        "link_video": "https://youtube.com/watch?v=423034",
+        "curse": 19,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 181,
+    "fields": {
+        "title": "Мобильная разработка - Курс 11 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Мобильная разработка - Курс 11",
+        "link_video": "https://youtube.com/watch?v=661551",
+        "curse": 19,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 182,
+    "fields": {
+        "title": "Мобильная разработка - Курс 11 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Мобильная разработка - Курс 11",
+        "link_video": "https://youtube.com/watch?v=101367",
+        "curse": 19,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 183,
+    "fields": {
+        "title": "Мобильная разработка - Курс 11 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Мобильная разработка - Курс 11",
+        "link_video": "https://youtube.com/watch?v=365674",
+        "curse": 19,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 184,
+    "fields": {
+        "title": "Мобильная разработка - Курс 11 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Мобильная разработка - Курс 11",
+        "link_video": "https://youtube.com/watch?v=356618",
+        "curse": 19,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 185,
+    "fields": {
+        "title": "Мобильная разработка - Курс 11 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Мобильная разработка - Курс 11",
+        "link_video": "https://youtube.com/watch?v=278362",
+        "curse": 19,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 186,
+    "fields": {
+        "title": "Мобильная разработка - Курс 11 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Мобильная разработка - Курс 11",
+        "link_video": "https://youtube.com/watch?v=728963",
+        "curse": 19,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 187,
+    "fields": {
+        "title": "Мобильная разработка - Курс 11 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Мобильная разработка - Курс 11",
+        "link_video": "https://youtube.com/watch?v=409877",
+        "curse": 19,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 188,
+    "fields": {
+        "title": "Тестирование ПО - Курс 12 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Тестирование ПО - Курс 12",
+        "link_video": "https://youtube.com/watch?v=176100",
+        "curse": 20,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 189,
+    "fields": {
+        "title": "Тестирование ПО - Курс 12 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Тестирование ПО - Курс 12",
+        "link_video": "https://youtube.com/watch?v=641294",
+        "curse": 20,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 190,
+    "fields": {
+        "title": "Тестирование ПО - Курс 12 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Тестирование ПО - Курс 12",
+        "link_video": "https://youtube.com/watch?v=753421",
+        "curse": 20,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 191,
+    "fields": {
+        "title": "Тестирование ПО - Курс 12 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Тестирование ПО - Курс 12",
+        "link_video": "https://youtube.com/watch?v=785930",
+        "curse": 20,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 192,
+    "fields": {
+        "title": "Тестирование ПО - Курс 12 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Тестирование ПО - Курс 12",
+        "link_video": "https://youtube.com/watch?v=757326",
+        "curse": 20,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 193,
+    "fields": {
+        "title": "Тестирование ПО - Курс 12 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Тестирование ПО - Курс 12",
+        "link_video": "https://youtube.com/watch?v=952150",
+        "curse": 20,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 194,
+    "fields": {
+        "title": "Тестирование ПО - Курс 12 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Тестирование ПО - Курс 12",
+        "link_video": "https://youtube.com/watch?v=457656",
+        "curse": 20,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 195,
+    "fields": {
+        "title": "Тестирование ПО - Курс 12 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Тестирование ПО - Курс 12",
+        "link_video": "https://youtube.com/watch?v=255427",
+        "curse": 20,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 196,
+    "fields": {
+        "title": "Тестирование ПО - Курс 12 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Тестирование ПО - Курс 12",
+        "link_video": "https://youtube.com/watch?v=125235",
+        "curse": 20,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 197,
+    "fields": {
+        "title": "Тестирование ПО - Курс 12 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Тестирование ПО - Курс 12",
+        "link_video": "https://youtube.com/watch?v=454490",
+        "curse": 20,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 198,
+    "fields": {
+        "title": "Архитектура ПО - Курс 13 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Архитектура ПО - Курс 13",
+        "link_video": "https://youtube.com/watch?v=422507",
+        "curse": 21,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 199,
+    "fields": {
+        "title": "Архитектура ПО - Курс 13 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Архитектура ПО - Курс 13",
+        "link_video": "https://youtube.com/watch?v=308319",
+        "curse": 21,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 200,
+    "fields": {
+        "title": "Архитектура ПО - Курс 13 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Архитектура ПО - Курс 13",
+        "link_video": "https://youtube.com/watch?v=188186",
+        "curse": 21,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 201,
+    "fields": {
+        "title": "Архитектура ПО - Курс 13 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Архитектура ПО - Курс 13",
+        "link_video": "https://youtube.com/watch?v=444070",
+        "curse": 21,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 202,
+    "fields": {
+        "title": "Архитектура ПО - Курс 13 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Архитектура ПО - Курс 13",
+        "link_video": "https://youtube.com/watch?v=234123",
+        "curse": 21,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 203,
+    "fields": {
+        "title": "Архитектура ПО - Курс 13 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Архитектура ПО - Курс 13",
+        "link_video": "https://youtube.com/watch?v=502758",
+        "curse": 21,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 204,
+    "fields": {
+        "title": "Архитектура ПО - Курс 13 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Архитектура ПО - Курс 13",
+        "link_video": "https://youtube.com/watch?v=132099",
+        "curse": 21,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 205,
+    "fields": {
+        "title": "Архитектура ПО - Курс 13 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Архитектура ПО - Курс 13",
+        "link_video": "https://youtube.com/watch?v=800374",
+        "curse": 21,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 206,
+    "fields": {
+        "title": "Архитектура ПО - Курс 13 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Архитектура ПО - Курс 13",
+        "link_video": "https://youtube.com/watch?v=590221",
+        "curse": 21,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 207,
+    "fields": {
+        "title": "Архитектура ПО - Курс 13 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Архитектура ПО - Курс 13",
+        "link_video": "https://youtube.com/watch?v=259497",
+        "curse": 21,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 208,
+    "fields": {
+        "title": "Алгоритмы и структуры - Курс 14 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Алгоритмы и структуры - Курс 14",
+        "link_video": "https://youtube.com/watch?v=973123",
+        "curse": 22,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 209,
+    "fields": {
+        "title": "Алгоритмы и структуры - Курс 14 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Алгоритмы и структуры - Курс 14",
+        "link_video": "https://youtube.com/watch?v=715920",
+        "curse": 22,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 210,
+    "fields": {
+        "title": "Алгоритмы и структуры - Курс 14 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Алгоритмы и структуры - Курс 14",
+        "link_video": "https://youtube.com/watch?v=897023",
+        "curse": 22,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 211,
+    "fields": {
+        "title": "Алгоритмы и структуры - Курс 14 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Алгоритмы и структуры - Курс 14",
+        "link_video": "https://youtube.com/watch?v=207683",
+        "curse": 22,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 212,
+    "fields": {
+        "title": "Алгоритмы и структуры - Курс 14 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Алгоритмы и структуры - Курс 14",
+        "link_video": "https://youtube.com/watch?v=909330",
+        "curse": 22,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 213,
+    "fields": {
+        "title": "Алгоритмы и структуры - Курс 14 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Алгоритмы и структуры - Курс 14",
+        "link_video": "https://youtube.com/watch?v=852299",
+        "curse": 22,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 214,
+    "fields": {
+        "title": "Алгоритмы и структуры - Курс 14 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Алгоритмы и структуры - Курс 14",
+        "link_video": "https://youtube.com/watch?v=598595",
+        "curse": 22,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 215,
+    "fields": {
+        "title": "Алгоритмы и структуры - Курс 14 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Алгоритмы и структуры - Курс 14",
+        "link_video": "https://youtube.com/watch?v=449390",
+        "curse": 22,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 216,
+    "fields": {
+        "title": "Алгоритмы и структуры - Курс 14 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Алгоритмы и структуры - Курс 14",
+        "link_video": "https://youtube.com/watch?v=682991",
+        "curse": 22,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 217,
+    "fields": {
+        "title": "Алгоритмы и структуры - Курс 14 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Алгоритмы и структуры - Курс 14",
+        "link_video": "https://youtube.com/watch?v=867102",
+        "curse": 22,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 218,
+    "fields": {
+        "title": "Linux для разработчиков - Курс 15 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Linux для разработчиков - Курс 15",
+        "link_video": "https://youtube.com/watch?v=559502",
+        "curse": 23,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 219,
+    "fields": {
+        "title": "Linux для разработчиков - Курс 15 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Linux для разработчиков - Курс 15",
+        "link_video": "https://youtube.com/watch?v=836368",
+        "curse": 23,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 220,
+    "fields": {
+        "title": "Linux для разработчиков - Курс 15 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Linux для разработчиков - Курс 15",
+        "link_video": "https://youtube.com/watch?v=279003",
+        "curse": 23,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 221,
+    "fields": {
+        "title": "Linux для разработчиков - Курс 15 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Linux для разработчиков - Курс 15",
+        "link_video": "https://youtube.com/watch?v=174489",
+        "curse": 23,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 222,
+    "fields": {
+        "title": "Linux для разработчиков - Курс 15 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Linux для разработчиков - Курс 15",
+        "link_video": "https://youtube.com/watch?v=853820",
+        "curse": 23,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 223,
+    "fields": {
+        "title": "Linux для разработчиков - Курс 15 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Linux для разработчиков - Курс 15",
+        "link_video": "https://youtube.com/watch?v=189782",
+        "curse": 23,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 224,
+    "fields": {
+        "title": "Linux для разработчиков - Курс 15 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Linux для разработчиков - Курс 15",
+        "link_video": "https://youtube.com/watch?v=942106",
+        "curse": 23,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 225,
+    "fields": {
+        "title": "Linux для разработчиков - Курс 15 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Linux для разработчиков - Курс 15",
+        "link_video": "https://youtube.com/watch?v=379388",
+        "curse": 23,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 226,
+    "fields": {
+        "title": "Linux для разработчиков - Курс 15 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Linux для разработчиков - Курс 15",
+        "link_video": "https://youtube.com/watch?v=382678",
+        "curse": 23,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 227,
+    "fields": {
+        "title": "Linux для разработчиков - Курс 15 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Linux для разработчиков - Курс 15",
+        "link_video": "https://youtube.com/watch?v=903661",
+        "curse": 23,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 228,
+    "fields": {
+        "title": "Git и GitHub - Курс 16 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Git и GitHub - Курс 16",
+        "link_video": "https://youtube.com/watch?v=902797",
+        "curse": 24,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 229,
+    "fields": {
+        "title": "Git и GitHub - Курс 16 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Git и GitHub - Курс 16",
+        "link_video": "https://youtube.com/watch?v=610075",
+        "curse": 24,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 230,
+    "fields": {
+        "title": "Git и GitHub - Курс 16 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Git и GitHub - Курс 16",
+        "link_video": "https://youtube.com/watch?v=816465",
+        "curse": 24,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 231,
+    "fields": {
+        "title": "Git и GitHub - Курс 16 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Git и GitHub - Курс 16",
+        "link_video": "https://youtube.com/watch?v=499356",
+        "curse": 24,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 232,
+    "fields": {
+        "title": "Git и GitHub - Курс 16 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Git и GitHub - Курс 16",
+        "link_video": "https://youtube.com/watch?v=550004",
+        "curse": 24,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 233,
+    "fields": {
+        "title": "Git и GitHub - Курс 16 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Git и GitHub - Курс 16",
+        "link_video": "https://youtube.com/watch?v=998201",
+        "curse": 24,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 234,
+    "fields": {
+        "title": "Git и GitHub - Курс 16 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Git и GitHub - Курс 16",
+        "link_video": "https://youtube.com/watch?v=688361",
+        "curse": 24,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 235,
+    "fields": {
+        "title": "Git и GitHub - Курс 16 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Git и GitHub - Курс 16",
+        "link_video": "https://youtube.com/watch?v=573745",
+        "curse": 24,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 236,
+    "fields": {
+        "title": "Git и GitHub - Курс 16 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Git и GitHub - Курс 16",
+        "link_video": "https://youtube.com/watch?v=222694",
+        "curse": 24,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 237,
+    "fields": {
+        "title": "Git и GitHub - Курс 16 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Git и GitHub - Курс 16",
+        "link_video": "https://youtube.com/watch?v=775934",
+        "curse": 24,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 238,
+    "fields": {
+        "title": "UI/UX дизайн - Курс 17 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса UI/UX дизайн - Курс 17",
+        "link_video": "https://youtube.com/watch?v=437347",
+        "curse": 25,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 239,
+    "fields": {
+        "title": "UI/UX дизайн - Курс 17 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса UI/UX дизайн - Курс 17",
+        "link_video": "https://youtube.com/watch?v=892304",
+        "curse": 25,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 240,
+    "fields": {
+        "title": "UI/UX дизайн - Курс 17 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса UI/UX дизайн - Курс 17",
+        "link_video": "https://youtube.com/watch?v=706594",
+        "curse": 25,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 241,
+    "fields": {
+        "title": "UI/UX дизайн - Курс 17 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса UI/UX дизайн - Курс 17",
+        "link_video": "https://youtube.com/watch?v=223305",
+        "curse": 25,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 242,
+    "fields": {
+        "title": "UI/UX дизайн - Курс 17 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса UI/UX дизайн - Курс 17",
+        "link_video": "https://youtube.com/watch?v=317033",
+        "curse": 25,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 243,
+    "fields": {
+        "title": "UI/UX дизайн - Курс 17 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса UI/UX дизайн - Курс 17",
+        "link_video": "https://youtube.com/watch?v=808766",
+        "curse": 25,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 244,
+    "fields": {
+        "title": "UI/UX дизайн - Курс 17 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса UI/UX дизайн - Курс 17",
+        "link_video": "https://youtube.com/watch?v=852352",
+        "curse": 25,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 245,
+    "fields": {
+        "title": "UI/UX дизайн - Курс 17 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса UI/UX дизайн - Курс 17",
+        "link_video": "https://youtube.com/watch?v=360238",
+        "curse": 25,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 246,
+    "fields": {
+        "title": "UI/UX дизайн - Курс 17 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса UI/UX дизайн - Курс 17",
+        "link_video": "https://youtube.com/watch?v=696352",
+        "curse": 25,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 247,
+    "fields": {
+        "title": "UI/UX дизайн - Курс 17 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса UI/UX дизайн - Курс 17",
+        "link_video": "https://youtube.com/watch?v=167098",
+        "curse": 25,
+        "owner": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 248,
+    "fields": {
+        "title": "Блокчейн разработка - Курс 18 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Блокчейн разработка - Курс 18",
+        "link_video": "https://youtube.com/watch?v=203267",
+        "curse": 26,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 249,
+    "fields": {
+        "title": "Блокчейн разработка - Курс 18 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Блокчейн разработка - Курс 18",
+        "link_video": "https://youtube.com/watch?v=447660",
+        "curse": 26,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 250,
+    "fields": {
+        "title": "Блокчейн разработка - Курс 18 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Блокчейн разработка - Курс 18",
+        "link_video": "https://youtube.com/watch?v=500344",
+        "curse": 26,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 251,
+    "fields": {
+        "title": "Блокчейн разработка - Курс 18 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Блокчейн разработка - Курс 18",
+        "link_video": "https://youtube.com/watch?v=242634",
+        "curse": 26,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 252,
+    "fields": {
+        "title": "Блокчейн разработка - Курс 18 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Блокчейн разработка - Курс 18",
+        "link_video": "https://youtube.com/watch?v=496689",
+        "curse": 26,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 253,
+    "fields": {
+        "title": "Блокчейн разработка - Курс 18 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Блокчейн разработка - Курс 18",
+        "link_video": "https://youtube.com/watch?v=937338",
+        "curse": 26,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 254,
+    "fields": {
+        "title": "Блокчейн разработка - Курс 18 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Блокчейн разработка - Курс 18",
+        "link_video": "https://youtube.com/watch?v=210427",
+        "curse": 26,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 255,
+    "fields": {
+        "title": "Блокчейн разработка - Курс 18 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Блокчейн разработка - Курс 18",
+        "link_video": "https://youtube.com/watch?v=257799",
+        "curse": 26,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 256,
+    "fields": {
+        "title": "Блокчейн разработка - Курс 18 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Блокчейн разработка - Курс 18",
+        "link_video": "https://youtube.com/watch?v=802135",
+        "curse": 26,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 257,
+    "fields": {
+        "title": "Блокчейн разработка - Курс 18 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Блокчейн разработка - Курс 18",
+        "link_video": "https://youtube.com/watch?v=913248",
+        "curse": 26,
+        "owner": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 258,
+    "fields": {
+        "title": "Big Data - Курс 19 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Big Data - Курс 19",
+        "link_video": "https://youtube.com/watch?v=354792",
+        "curse": 27,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 259,
+    "fields": {
+        "title": "Big Data - Курс 19 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Big Data - Курс 19",
+        "link_video": "https://youtube.com/watch?v=556413",
+        "curse": 27,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 260,
+    "fields": {
+        "title": "Big Data - Курс 19 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Big Data - Курс 19",
+        "link_video": "https://youtube.com/watch?v=514454",
+        "curse": 27,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 261,
+    "fields": {
+        "title": "Big Data - Курс 19 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Big Data - Курс 19",
+        "link_video": "https://youtube.com/watch?v=962540",
+        "curse": 27,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 262,
+    "fields": {
+        "title": "Big Data - Курс 19 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Big Data - Курс 19",
+        "link_video": "https://youtube.com/watch?v=161877",
+        "curse": 27,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 263,
+    "fields": {
+        "title": "Big Data - Курс 19 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Big Data - Курс 19",
+        "link_video": "https://youtube.com/watch?v=452989",
+        "curse": 27,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 264,
+    "fields": {
+        "title": "Big Data - Курс 19 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Big Data - Курс 19",
+        "link_video": "https://youtube.com/watch?v=494448",
+        "curse": 27,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 265,
+    "fields": {
+        "title": "Big Data - Курс 19 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Big Data - Курс 19",
+        "link_video": "https://youtube.com/watch?v=825670",
+        "curse": 27,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 266,
+    "fields": {
+        "title": "Big Data - Курс 19 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Big Data - Курс 19",
+        "link_video": "https://youtube.com/watch?v=750261",
+        "curse": 27,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 267,
+    "fields": {
+        "title": "Big Data - Курс 19 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Big Data - Курс 19",
+        "link_video": "https://youtube.com/watch?v=869704",
+        "curse": 27,
+        "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 268,
+    "fields": {
+        "title": "Soft Skills - Курс 20 - Введение в тему",
+        "preview": "",
+        "description": "Базовые понятия и введение для курса Soft Skills - Курс 20",
+        "link_video": "https://youtube.com/watch?v=182870",
+        "curse": 28,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 269,
+    "fields": {
+        "title": "Soft Skills - Курс 20 - Установка окружения",
+        "preview": "",
+        "description": "Настройка рабочего окружения для курса Soft Skills - Курс 20",
+        "link_video": "https://youtube.com/watch?v=753736",
+        "curse": 28,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 270,
+    "fields": {
+        "title": "Soft Skills - Курс 20 - Первые шаги",
+        "preview": "",
+        "description": "Практика с простыми примерами для курса Soft Skills - Курс 20",
+        "link_video": "https://youtube.com/watch?v=599789",
+        "curse": 28,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 271,
+    "fields": {
+        "title": "Soft Skills - Курс 20 - Основные концепции",
+        "preview": "",
+        "description": "Ключевые принципы и подходы для курса Soft Skills - Курс 20",
+        "link_video": "https://youtube.com/watch?v=780617",
+        "curse": 28,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 272,
+    "fields": {
+        "title": "Soft Skills - Курс 20 - Практические задания",
+        "preview": "",
+        "description": "Решение реальных задач для курса Soft Skills - Курс 20",
+        "link_video": "https://youtube.com/watch?v=700732",
+        "curse": 28,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 273,
+    "fields": {
+        "title": "Soft Skills - Курс 20 - Оптимизация кода",
+        "preview": "",
+        "description": "Как писать эффективный код для курса Soft Skills - Курс 20",
+        "link_video": "https://youtube.com/watch?v=679412",
+        "curse": 28,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 274,
+    "fields": {
+        "title": "Soft Skills - Курс 20 - Работа с библиотеками",
+        "preview": "",
+        "description": "Использование сторонних решений для курса Soft Skills - Курс 20",
+        "link_video": "https://youtube.com/watch?v=855484",
+        "curse": 28,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 275,
+    "fields": {
+        "title": "Soft Skills - Курс 20 - Отладка и тестирование",
+        "preview": "",
+        "description": "Поиск и исправление ошибок для курса Soft Skills - Курс 20",
+        "link_video": "https://youtube.com/watch?v=729897",
+        "curse": 28,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 276,
+    "fields": {
+        "title": "Soft Skills - Курс 20 - Развертывание",
+        "preview": "",
+        "description": "Деплой приложения на сервер для курса Soft Skills - Курс 20",
+        "link_video": "https://youtube.com/watch?v=571623",
+        "curse": 28,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 277,
+    "fields": {
+        "title": "Soft Skills - Курс 20 - Best practices",
+        "preview": "",
+        "description": "Рекомендации и лучшие практики для курса Soft Skills - Курс 20",
+        "link_video": "https://youtube.com/watch?v=528977",
+        "curse": 28,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.subscription",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "course": 1,
+        "subscribed_at": "2026-01-26T18:26:57.717Z"
     }
 }
 ]
