@@ -90,7 +90,11 @@
         "paid_lesson": null,
         "amount": "1000.00",
         "payment_date": "2026-01-15T20:51:03.378Z",
-        "payment_method": "cash"
+        "payment_method": "cash",
+        "link_payment": null,
+        "stripe_session_id": null,
+        "stripe_price_id": null,
+        "status": "pending"
     }
 },
 {
@@ -102,7 +106,11 @@
         "paid_lesson": null,
         "amount": "1000.00",
         "payment_date": "2026-01-18T18:43:26.681Z",
-        "payment_method": "cash"
+        "payment_method": "cash",
+        "link_payment": null,
+        "stripe_session_id": null,
+        "stripe_price_id": null,
+        "status": "pending"
     }
 },
 {
@@ -114,7 +122,11 @@
         "paid_lesson": null,
         "amount": "15000.00",
         "payment_date": "2026-01-18T18:45:25.717Z",
-        "payment_method": "cash"
+        "payment_method": "cash",
+        "link_payment": null,
+        "stripe_session_id": null,
+        "stripe_price_id": null,
+        "status": "pending"
     }
 },
 {
@@ -126,7 +138,11 @@
         "paid_lesson": 1,
         "amount": "5000.00",
         "payment_date": "2026-01-18T19:07:55.017Z",
-        "payment_method": "transfer"
+        "payment_method": "transfer",
+        "link_payment": null,
+        "stripe_session_id": null,
+        "stripe_price_id": null,
+        "status": "pending"
     }
 },
 {
@@ -138,7 +154,11 @@
         "paid_lesson": 3,
         "amount": "3000.00",
         "payment_date": "2026-01-18T19:18:18.323Z",
-        "payment_method": "transfer"
+        "payment_method": "transfer",
+        "link_payment": null,
+        "stripe_session_id": null,
+        "stripe_price_id": null,
+        "status": "pending"
     }
 },
 {
@@ -150,7 +170,59 @@
         "paid_lesson": 5,
         "amount": "13000.00",
         "payment_date": "2026-01-18T19:19:45.000Z",
-        "payment_method": "transfer"
+        "payment_method": "transfer",
+        "link_payment": null,
+        "stripe_session_id": null,
+        "stripe_price_id": null,
+        "status": "pending"
+    }
+},
+{
+    "model": "users.payment",
+    "pk": 13,
+    "fields": {
+        "user": 1,
+        "paid_course": 1,
+        "paid_lesson": null,
+        "amount": "5000.00",
+        "payment_date": "2026-02-01T16:29:50.356Z",
+        "payment_method": "transfer",
+        "link_payment": "https://checkout.stripe.com/c/pay/cs_test_a1U58YTEKC4Wt43gGQvONt2RtGUqTb1RZF0l8JSGOchTEERFtREnh9dQNQ#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdkdWxOYHwnPyd1blpxYHZxWjA0VnN0NjZAV3RpRjQzQU9wazc8VXJ1PW1rUX09blRNN0Zfa1J3S31VUEZOXVNqVE5cNE5wYnxBZndDVU42M2RAUVxCcE1GZlEwYXVWa2BTM3I2RElRQEJuNTVTN31TN0ZWQCcpJ2N3amhWYHdzYHcnP3F3cGApJ2dkZm5id2pwa2FGamlqdyc%2FJyZjY2NjY2MnKSdpZHxqcHFRfHVgJz8ndmxrYmlgWmxxYGgnKSdga2RnaWBVaWRmYG1qaWFgd3YnP3F3cGB4JSUl",
+        "stripe_session_id": "cs_test_a1U58YTEKC4Wt43gGQvONt2RtGUqTb1RZF0l8JSGOchTEERFtREnh9dQNQ",
+        "stripe_price_id": "price_1Sw3X5ERqlC16DJujh4RPN5s",
+        "status": "pending"
+    }
+},
+{
+    "model": "users.payment",
+    "pk": 14,
+    "fields": {
+        "user": 1,
+        "paid_course": 1,
+        "paid_lesson": null,
+        "amount": "500.00",
+        "payment_date": "2026-02-01T16:32:39.393Z",
+        "payment_method": "transfer",
+        "link_payment": "https://checkout.stripe.com/c/pay/cs_test_a1TczE8LgXT3LdBqWy4GxQ5TqOfVzi0xR6FgxSy5kSbsIpaTlC8fnDjel5#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdkdWxOYHwnPyd1blpxYHZxWjA0VnN0NjZAV3RpRjQzQU9wazc8VXJ1PW1rUX09blRNN0Zfa1J3S31VUEZOXVNqVE5cNE5wYnxBZndDVU42M2RAUVxCcE1GZlEwYXVWa2BTM3I2RElRQEJuNTVTN31TN0ZWQCcpJ2N3amhWYHdzYHcnP3F3cGApJ2dkZm5id2pwa2FGamlqdyc%2FJyZjY2NjY2MnKSdpZHxqcHFRfHVgJz8ndmxrYmlgWmxxYGgnKSdga2RnaWBVaWRmYG1qaWFgd3YnP3F3cGB4JSUl",
+        "stripe_session_id": "cs_test_a1TczE8LgXT3LdBqWy4GxQ5TqOfVzi0xR6FgxSy5kSbsIpaTlC8fnDjel5",
+        "stripe_price_id": "price_1Sw3ZoERqlC16DJu8jeK8ZhM",
+        "status": "pending"
+    }
+},
+{
+    "model": "users.payment",
+    "pk": 15,
+    "fields": {
+        "user": 1,
+        "paid_course": 2,
+        "paid_lesson": null,
+        "amount": "1500.00",
+        "payment_date": "2026-02-01T16:39:13.823Z",
+        "payment_method": "transfer",
+        "link_payment": "https://checkout.stripe.com/c/pay/cs_test_a19l8Zqjeu7S371ChLg2yMqxSiYMigafaLCqqYcqFlVgQjnTN3raJ8Spun#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdkdWxOYHwnPyd1blpxYHZxWjA0VnN0NjZAV3RpRjQzQU9wazc8VXJ1PW1rUX09blRNN0Zfa1J3S31VUEZOXVNqVE5cNE5wYnxBZndDVU42M2RAUVxCcE1GZlEwYXVWa2BTM3I2RElRQEJuNTVTN31TN0ZWQCcpJ2N3amhWYHdzYHcnP3F3cGApJ2dkZm5id2pwa2FGamlqdyc%2FJyZjY2NjY2MnKSdpZHxqcHFRfHVgJz8ndmxrYmlgWmxxYGgnKSdga2RnaWBVaWRmYG1qaWFgd3YnP3F3cGB4JSUl",
+        "stripe_session_id": "cs_test_a19l8Zqjeu7S371ChLg2yMqxSiYMigafaLCqqYcqFlVgQjnTN3raJ8Spun",
+        "stripe_price_id": "price_1Sw3g9ERqlC16DJuLszaIKtJ",
+        "status": "pending"
     }
 }
 ]

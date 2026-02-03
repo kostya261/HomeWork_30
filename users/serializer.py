@@ -6,8 +6,21 @@ from users.models import User, Payment
 class PaymentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Payment
-        fields = '__all__'
-        read_only_fields = ['user', 'payment_date']
+
+        fields = [
+            'id', 'user', 'paid_course', 'paid_lesson', 'amount',
+            'payment_date', 'payment_method', 'link_payment',
+            'stripe_session_id', 'stripe_price_id', 'status'
+
+        ]
+        read_only_fields = [
+            'user', 'payment_date', 'link_payment',
+            'stripe_session_id', 'stripe_price_id', 'status'
+        ]
+
+        def get_payment_link(self, obj):
+            """Возвращает ссылку на оплату, если она есть"""
+            return obj.link_payment
 
         def create(self, validated_data):
             # Автоматически подставляем текущего пользователя

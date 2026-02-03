@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'rest_framework_simplejwt',
+    'drf_yasg',
 ]
 
 REST_FRAMEWORK = {
@@ -153,3 +154,11 @@ CSRF_TRUSTED_ORIGINS = [
     'http://localhost:8000',
     'http://127.0.0.1:8000',
 ]
+
+SWAGGER_SETTINGS = {
+    'DEFAULT_FILTER_INSPECTORS': [],
+    'DEFAULT_PAGINATOR_INSPECTORS': [],
+    'DEFAULT_AUTO_SCHEMA_CLASS': 'drf_yasg.inspectors.SwaggerAutoSchema',
+}
+
+STRIPE_API_KEY = os.getenv('STRIPE_API_KEY')
