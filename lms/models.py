@@ -86,6 +86,11 @@ class Lesson(models.Model):
         verbose_name='Владелец',
         help_text='Укажите владельца')
 
+    updated_at = models.DateTimeField(
+        auto_now=True,
+        verbose_name='Дата обновления'
+    )
+
     def __str__(self):
         return f'{self.title}'
 
